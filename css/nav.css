@@ -1,0 +1,147 @@
+body {
+  font-family: "sen", sans-serif !important;
+}
+/* ============================================= */
+/* ====================NAV==================== */
+/* ============================================= */
+#myNavStyle {
+  margin: 6px auto;
+  animation: head 2s 0s 1;
+  background-color: rgb(29, 25, 25);
+  margin-bottom: 10px;
+  border: none;
+}
+#brand {
+  padding-top: 20px;
+  margin-bottom: 15px;
+}
+#myNavStyle h1 {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 50px;
+  letter-spacing: 2px;
+  margin: 8px auto;
+  font-family: "sen", sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+#brandUnderline {
+  width: 190px;
+  margin: auto;
+  height: 4px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 8px;
+}
+#styleLi {
+  display: flex;
+  margin-top: 4px;
+  justify-content: space-around;
+}
+#styleLi li {
+  background-color: rgb(66, 66, 66);
+  border-radius: 3px;
+  margin: 4px 2px 8px 2px;
+  cursor: pointer;
+  box-shadow: 4px 4px #d8d8d8;
+}
+#styleLi li :hover {
+  background-color: #ff004d;
+  border-radius: 3px;
+  position: relative;
+  top: 4px;
+  left: 4px;
+  box-shadow: none;
+}
+#styleLi li a {
+  color: white;
+  text-align: center;
+}
+@media (min-width: 990px) {
+  #styleLi li a {
+    padding: 6px 80px;
+  }
+}
+@keyframes head {
+  0% {
+    opacity: 0;
+    transform: translate(0%, -100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0% 0%);
+  }
+}
+
+/* ============================================= */
+/* ============  PRECAUTION BAR   ============== */
+/* ============================================= */
+
+#precautionStyle {
+  background-color: #ff004d;
+}
+.precautionFlex {
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+.changeContent {
+  padding: 12px 0px;
+}
+.changeContent:after {
+  content: "";
+  /* Enter Precaution Bar Total Duration  */
+  animation: flow 21s infinite linear;
+  font-size: 1.5rem;
+}
+
+/* Enter Your Precautions Here */
+@keyframes flow {
+  0%,
+  100% {
+    content: "Help out the elderly by bringing them their groceries and other essentials.  ";
+  }
+  10% {
+    content: "Stand Against FAKE News and WhatsApp Forwards! Do NOT ❌ forward a message until you verify the content it contains.  ";
+  }
+  20% {
+    content: "Even the Virus Does not discriminate. Why do you? DO NOT DISCRIMINATE. WE are all Indians!  ";
+  }
+  30% {
+    content: "Plan and calculate your essential needs for the next three weeks and get only what is bare minimum needed.  ";
+  }
+  40% {
+    content: "Our brothers from the north east are just as Indian as you! Help everyone during this crisis ❤️  ";
+  }
+  50% {
+    content: "If you have symptoms and suspect you have coronavirus - reach out to your doctor or call state helplines. 📞 Get help.  ";
+  }
+  60% {
+    content: "Get in touch with your local NGO's and district administration to volunteer for this cause.  ";
+  }
+  70% {
+    content: "Plan ahead! Take a minute and check how much you have at home. Planning ahead let's you buy exactly what you need!  ";
+  }
+  80% {
+    content: "Be considerate : While buying essentials remember : You need to share with 130 crore fellow citizens!  ";
+  }
+  90% {
+    content: "Panic mode : OFF! ❌ ESSENTIALS ARE ON! ✔️  ";
+  }
+}
+
+/* ============================================= */
+/* ============  HOME BAR   ============== */
+/* ============================================= */
+
+.cage {
+  background-color: rgb(66, 66, 66);
+  margin: 10px 0px;
+  border-radius: 8px;
+}
+.infoBox {
+  padding: 20px;
+}
+
+/* ============================================= */
+/* ============  PRECAUTION BAR   ============== */
+/* ============================================= */
