@@ -1,0 +1,25 @@
+.neerajImg img,.git img,.link img{
+    border-radius: 50%;
+}
+.neerajImg img{
+    width: 45%;
+    height: auto;
+}
+.git img{
+    width: 60px;
+    height: auto;
+    margin-right: 5px;
+}
+.link img{
+    width: 60px;
+    height: auto;
+    margin-left: 5px;
+    background-color: white;
+    border: 1.7px solid white;
+}
+.idBoxFlex,.iconFlex{
+    display: flex;
+}
+.iconFlex{
+    align-items: center;
+}

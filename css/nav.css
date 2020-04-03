@@ -32,7 +32,7 @@ body {
   font-weight: 700;
   justify-content: space-around;
 }
-#styleLi li {
+#styleLi li{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -49,7 +49,7 @@ body {
   align-items: center;
   background-color: #ff004d;
   border-radius: 3px;
-  width: 0px;
+  width: 150px;
   position: relative;
   top: 4px;
   left: 4px;
