@@ -32,7 +32,7 @@ body {
   font-weight: 700;
   justify-content: space-around;
 }
-#styleLi li{
+#styleLi li {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -157,7 +157,7 @@ i {
 /* ============================================= */
 
 #headTitle p {
-  font-size: 4vh;
+  font-size: 3rem;
   font-weight: 800;
   text-align: center;
 }
@@ -183,7 +183,16 @@ i {
   display: flex;
   justify-content: space-evenly;
 }
-
+i {
+  padding: 0 !important;
+  margin-right: 20px;
+  width: 0px !important;
+}
+i:hover {
+  top: 0px !important;
+  left: 0px !important;
+  margin-right: 20px;
+}
 /* ============================================= */
 /* ============  INFO CORONA  =============== */
 /* ============================================= */
