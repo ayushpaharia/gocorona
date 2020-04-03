@@ -28,8 +28,38 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
     <link rel="stylesheet" href="css/bot.css" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+  />
+  <link rel="stylesheet" href="./css/data.css" />
+  <link rel="stylesheet" href="css/nav.css" />
   </head>
   <body>
+        <!-- NAV BAR BRAND -->
+        <nav class="navbar navbar-inverse" id="myNavStyle">
+          <div id="brand">
+            <h1>HackCorona</h1>
+            <hr id="brandUnderline" />
+          </div>
+          <!-- NAV BAR LINKS -->
+          <ul id="styleLi" class="nav">
+            <li role="presentation">
+              <a href="./index.html"><i class="fas fa-home"></i> Home</a>
+            </li>
+            <li role="presentation">
+              <a href="./data.html"><i class="fas fa-database"></i> Stats</a>
+            </li>
+            <li role="presentation">
+              <a href="./covidtrack.html"><i class="fas fa-comments"></i> Chat</a>
+            </li>
+            <li role="presentation">
+              <a href="./team.html"
+                ><i class="fas fa-user-friends"></i> Team Info</a
+              >
+            </li>
+          </ul>
+        </nav>
     <!-- ChatBot -->
     <div class="botui-app-container" id="help-bot">
       <bot-ui></bot-ui>
